@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo 'Retrieve source from github. run npm install and npm test' 
                 git branch: 'master',
-                  url: https://github.com/nikitha-pallapotu/external.git
+                  url: 'https://github.com/nikitha-pallapotu/external.git'
                 echo "did we get the source"
                 sh "ls -a"
 
